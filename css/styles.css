@@ -399,12 +399,14 @@ button {
 .footer-tel:hover,
 .footer-tel:focus {
   color: var(--accent-color);
+  transition: color 250ms var(--time-function);
 }
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   margin: auto;
   background-color: var(--border-br-color);
+  /* transition: background-color 5s var(--time-function), fill 5s var(--time-function); */
 }
 
 .footer-box {
@@ -421,6 +423,7 @@ button {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+ 
 }
 .footer-web {
   color: var(--accent-color);
@@ -436,6 +439,7 @@ button {
   line-height: 1.71;
   font-style: normal;
   color: var(--main-ligth-color);
+  
 }
 
 .footer-mail {
@@ -727,10 +731,9 @@ button {
   height: 100%; */
   /* border-width: 1px; */
   color: var(--border-br-color2);
-  /* border-style: solid; */
+  border-style: solid;
   border-radius: 4px;
   transition: color 250ms var(--time-function);
-
   border: 1px solid currentColor;
 }
 
@@ -741,8 +744,12 @@ button {
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon {
   color: var(--accent-color);
+  /* border-color: var(--accent-color); */
 }
-
+.clients-link:hover,
+.clients-link:focus {
+  border-color: var(--accent-color);
+}
 
 .clients-item {
   margin-left: 30px;
