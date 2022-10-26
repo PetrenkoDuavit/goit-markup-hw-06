@@ -285,72 +285,45 @@
     </main>
     <footer class="footer">
       <div class="footer-box container">
-        <div>
-          <a class="footer-link link" href="./index.html">
-            <span lang="en" class="footer-web">Web</span>
-            <span lang="en" class="footer-studio">Studio</span>
-          </a>
-          <address class="footer-main">
-            <ul class="footer-list list">
-              <li class="footer-address">
-                <a
-                  href="https://goo.gl/maps/tJLbzxb6EKG3bFai7"
-                  rel="noopener noreferrer nofollow"
-                  class="footer-address link"
-                  >м. Київ, пр-т Лесі Українки, 26</a
-                >
-              </li>
-              <li>
-                <a class="footer-mail link" href="meilto:info@example.com">info@example.com</a>
-              </li>
-              <li><a class="footer-tel link" href="tel:+380991111111">+38 099 111 11 11</a></li>
-            </ul>
-          </address>
-        </div>
-        <div class="footer-icon-box">
+      <div>
+        <a class="footer-link link" href="./index.html">
+          <span lang="en" class="footer-web">Web</span>
+          <span lang="en" class="footer-studio">Studio</span>
+        </a>
+        <address class="footer-main">
+          <ul class="footer-list list">
+            <li class="footer-address"><a href="https://goo.gl/maps/tJLbzxb6EKG3bFai7" rel="noopener noreferrer nofollow" class="footer-address link" >м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li><a class="footer-mail link" href="meilto:info@example.com">info@example.com</a></li>
+            <li><a class="footer-tel link" href="tel:+380991111111">+38 099 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
+          <div class="footer-icon-box">
           <span class="footer-title">приєднуйтесь</span>
           <ul class="footer-list-icon list">
             <li class="footer-icon-item">
-              <a
-                href="https://www.instagram.com/"
-                target="_blank"
-                rel="nofollow noopener"
-                class="footer-icon-link link"
-              >
+              <a href="https://www.instagram.com/" target="_blank" class="footer-icon-link link">
                 <svg class="footer-icon" width="20" height="20">
                   <use href="./images/svg/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-icon-item">
-              <a
-                href="https://twitter.com/"
-                target="_blank"
-                rel="nofollow noopener"
-                class="footer-icon-link link"
-              >
+              <a href="https://twitter.com/" target="_blank" class="footer-icon-link link">
                 <svg class="footer-icon" width="20" height="20">
                   <use href="./images/svg/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-icon-item">
-              <a
-                href="https://facebook.com/"
-                target="_blank"
-                class="footer-icon-link link"
-              >
+              <a href="https://facebook.com/" target="_blank" class="footer-icon-link link">
                 <svg class="footer-icon" width="20" height="20">
                   <use href="./images/svg/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="footer-icon-item">
-              <a
-                href="https://www.linkedin.com/"
-                target="_blank"
-                class="footer-icon-link link"
-              >
+              <a href="https://www.linkedin.com/" target="_blank" class="footer-icon-link link">
                 <svg class="footer-icon" width="20" height="20">
                   <use href="./images/svg/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -358,7 +331,22 @@
             </li>
           </ul>
         </div>
-      </div>
+        <form name="footer-form" class="footer-form">
+					<label for="mail" class="footer-form-title">Підпишіться на розсилку</label>
+					<div class="footer-form-box">
+						<input 
+              class="footer-form-input" 
+              type="email" id="mail" 
+              placeholder="E-mail" />
+						<button type="submit" class="footer-form-button">
+							Підписатися
+							<svg class="footer-form-btn-icon" width="24" height="24">
+								<use href="./images/svg/icons.svg#icon-telegram"></use>
+							</svg>
+						</button>
+					</div>
+				</form>
+        </div>
     </footer>
   </body>
 </html>
